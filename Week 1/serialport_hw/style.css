@@ -1,0 +1,40 @@
+h1 {
+    font-family: Futura, sans-serif;
+    font-size: 75px;
+    font-weight: medium;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-image: url('Images/Background Image.jpg');
+}
+
+div {
+    font-family: Futura, sans-serif;
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+
+#text-input {
+    width: 13%;
+    height: 4%;
+}
+
+#my-button {
+    width: 6%;
+    height: 3%;
+    font-family: Futura, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#serialport {
+    font-family: Futura, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+}

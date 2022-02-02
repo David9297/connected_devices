@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Speech Sliders</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"
+        integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA=="
+        crossorigin="anonymous"></script>
+    <script language="javascript" type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/p5.serialserver@0.0.29/lib/p5.serialport.js"></script>
+</head>
+
+<body>
+    <h1>Welcome to Speech Sliders!</h1>
+    <section id="serialport">Reload this page with p5.serialcontrol open, then select a serial port: <select
+            id="portSelector"></select></section>
+    <div> What should I say?
+        <br />
+        <input type="text" id="text-input">
+    </div>
+    <br />
+    <div>
+        <button id="my-button">Submit</button>
+    </div>
+    <div>Choose your poison!
+        <div class="rangeslider">
+            <input type="range" min="0" max="10" value="5" class="myslider" id="slider1">
+        </div>
+        <br />
+        <div class="rangeslider">
+            <input type="range" min="0" max="20" value="10" class="myslider" id="slider2">
+        </div>
+        <br />
+        <div class="rangeslider">
+            <input type="range" min="1" max="21" value="10" class="myslider" id="slider3">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
