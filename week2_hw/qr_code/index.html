@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>QR Code GIFs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/qrcode-generator@1.4.4/qrcode.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>QR GIF</h1>
+    <p>This page will display a QR code of whatever text you type into the box below. To see the code, scan it on your
+        mobile device after it appears.</p>
+    <p>Enter some text here to generate a QR code GIF:</p>
+    <input type="text" id="textField" onchange="getQrCode(this.value);">
+    <p>
+    <div id='qrCode'>
+        </p>
+
+</body>
+
+</html>
