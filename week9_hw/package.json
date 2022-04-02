@@ -1,0 +1,21 @@
+{
+  "name": "week9_hw",
+  "version": "1.0.0",
+  "description": "A simple HTTP server using Arduino and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "http",
+    "arduino"
+  ],
+  "author": "David Leyva",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  }
+}
